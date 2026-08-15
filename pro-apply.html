@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Become a Kasly Pro — Coming Soon</title>
+<meta name="description" content="Kasly Professional applications are opening soon in Illinois & California.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#12141C; --paper:#F6F6F2; --paper-2:#FFFFFF;
+    --brass:#AC8850; --brass-light:#D9BE8F; --brass-dark:#8A6A3B;
+    --slate:#666A73; --line: rgba(18,20,28,0.12);
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    font-family:'Inter', sans-serif; background:var(--paper); color:var(--ink);
+    min-height:100vh; display:flex; align-items:center; justify-content:center;
+    padding:32px; text-align:center;
+  }
+  .card{max-width:480px;}
+  .logo{font-family:'Fraunces', serif; font-size:24px; font-weight:600; display:flex; align-items:center; justify-content:center; gap:10px; margin-bottom:40px;}
+  .logo .dot{width:8px; height:8px; border-radius:50%; background:var(--brass);}
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace; font-size:11.5px; letter-spacing:0.14em;
+    text-transform:uppercase; color:var(--brass-dark); display:flex; align-items:center;
+    justify-content:center; gap:10px; margin-bottom:20px;
+  }
+  .eyebrow::before, .eyebrow::after{content:''; width:22px; height:1px; background:var(--brass);}
+  h1{font-family:'Fraunces', serif; font-weight:500; font-size:clamp(30px,4vw,42px); line-height:1.15; margin-bottom:18px;}
+  p{color:var(--slate); font-size:16px; line-height:1.6; margin-bottom:36px;}
+  .btn{
+    display:inline-flex; align-items:center; gap:8px; font-weight:600; font-size:14.5px;
+    padding:13px 26px; background:var(--ink); color:var(--paper); border-radius:2px;
+  }
+  .back{display:block; margin-top:24px; font-size:13.5px; color:var(--slate);}
+</style>
+</head>
+<body>
+  <div class="card">
+    <a href="index.html" class="logo">KASLY<span class="dot"></span></a>
+    <div class="eyebrow">For professionals</div>
+    <h1>Professional applications open soon.</h1>
+    <p>Kasly is finishing verification and background-check setup for Illinois &amp; California. Leave your email and we'll notify you the moment applications open.</p>
+    <a href="mailto:hello@kasly.com?subject=Notify%20me%20-%20Kasly%20Pro%20applications" class="btn">Notify me when it's live</a>
+    <a href="index.html" class="back">← Back to Kasly</a>
+  </div>
+</body>
+</html>
